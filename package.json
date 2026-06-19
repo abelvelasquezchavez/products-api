@@ -22,7 +22,7 @@
     "rest-api",
     "jwt"
   ],
-  "author": "",
+  "author": "Abel Velasquez <abel.velasquezchavez@gmail.com> (https://github.com/abelvelasquezchavez)",
   "license": "MIT",
   "dependencies": {
     "@prisma/client": "^5.22.0",
