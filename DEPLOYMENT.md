@@ -115,10 +115,10 @@ new version starts serving traffic.
 
 ## Deployment checklist
 
-- [ ] Repository pushed to GitHub with `main` as default branch
-- [ ] Branch protection enabled on `main`
-- [ ] Managed MySQL provisioned; `DATABASE_URL` obtained
-- [ ] App hosting connected to the repo (auto-deploy on `main`)
-- [ ] Production env vars configured (`DATABASE_URL`, `JWT_SECRET`)
-- [ ] `prisma migrate deploy` wired as the release command
-- [ ] First release tagged (`v1.0.0`) and GitHub Release published
+- [x] Repository pushed to GitHub with `main` as default branch
+- [x] Branch protection enabled on `main`
+- [x] Managed MySQL provisioned; `DATABASE_URL` obtained
+- [x] App hosting connected to the repo (auto-deploy on `main`)
+- [x] Production env vars configured (`DATABASE_URL`, `JWT_SECRET`)
+- [x] `prisma migrate deploy` wired as the release command
+- [x] First release tagged (`v1.0.0`) and GitHub Release published

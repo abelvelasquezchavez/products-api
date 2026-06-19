@@ -2,6 +2,16 @@
 
 A production-grade REST API for product management with JWT authentication, built with TypeScript, Express and Prisma. The project follows a clean, layered architecture and is intended as a portfolio piece demonstrating professional backend practices.
 
+## Live demo
+
+The API is deployed on Render with a managed TiDB Cloud (MySQL-compatible) database:
+
+**Base URL:** https://products-api-w5hq.onrender.com/api
+
+Quick check: [`/api/health`](https://products-api-w5hq.onrender.com/api/health)
+
+> Hosted on a free instance — the first request after idle may take ~30–50s to wake the service.
+
 ## Features
 
 - 🔐 **JWT authentication** — register and login with hashed passwords (bcrypt) and stateless Bearer tokens.
